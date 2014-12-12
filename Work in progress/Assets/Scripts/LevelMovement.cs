@@ -17,5 +17,10 @@ public class LevelMovement : MonoBehaviour {
 		{
 			transform.Translate (-Vector2.right * moveSpeed * Time.deltaTime);
 		}
+		
+		if(this.transform.position.x < -86f)// put value for stop level here
+		{
+			GetComponent<LevelMovement>().enabled = false;
+		}
 	}
 }
