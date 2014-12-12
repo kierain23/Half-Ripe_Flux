@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 90ac4a8d7eaf00842ad4f9f8c79a7091
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bloodcell_0
+    21300002: bloodcell_1
+    21300004: bloodcell_2
+    21300006: bloodcell_3
+    21300008: bloodcell_4
+    21300010: bloodcell_5
+    21300012: bloodcell_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bloodcell_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 384
+        width: 112
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bloodcell_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 384
+        width: 112
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bloodcell_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 384
+        width: 112
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bloodcell_3
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 372
+        width: 93
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bloodcell_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 253
+        width: 97
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bloodcell_5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 252
+        width: 113
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bloodcell_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 252
+        width: 114
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
