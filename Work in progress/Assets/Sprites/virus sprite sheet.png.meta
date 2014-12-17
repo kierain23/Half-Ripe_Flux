@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: a45bf7a47fd96b64486e28ae6b4d5654
+guid: fb9a2d2219b4c1e48b7bf9f0aa6f813f
 TextureImporter:
   fileIDToRecycleName:
-    21300000: white blood cell sprite sheet_0
-    21300002: white blood cell sprite sheet_1
-    21300004: white blood cell sprite sheet_2
-    21300006: white blood cell sprite sheet_3
-    21300008: white blood cell sprite sheet_4
-    21300010: white blood cell sprite sheet_5
-    21300012: white blood cell sprite sheet_6
-    21300014: white blood cell sprite sheet_7
+    21300000: virus sprite sheet_0
+    21300002: virus sprite sheet_1
+    21300004: virus sprite sheet_2
+    21300006: virus sprite sheet_3
+    21300008: virus sprite sheet_4
+    21300010: virus sprite sheet_5
+    21300012: virus sprite sheet_6
+    21300014: virus sprite sheet_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -51,83 +51,83 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: white blood cell sprite sheet_0
+    - name: virus sprite sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 187
-        width: 63
-        height: 60
+        x: 65
+        y: 680
+        width: 206
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: white blood cell sprite sheet_1
+    - name: virus sprite sheet_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 187
-        width: 63
-        height: 60
+        x: 293
+        y: 674
+        width: 216
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: white blood cell sprite sheet_2
+    - name: virus sprite sheet_2
       rect:
         serializedVersion: 2
-        x: 150
-        y: 190
-        width: 63
-        height: 62
+        x: 533
+        y: 667
+        width: 227
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: white blood cell sprite sheet_3
+    - name: virus sprite sheet_3
       rect:
         serializedVersion: 2
-        x: 4
-        y: 118
-        width: 63
-        height: 62
+        x: 766
+        y: 659
+        width: 238
+        height: 309
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: white blood cell sprite sheet_4
+    - name: virus sprite sheet_4
       rect:
         serializedVersion: 2
-        x: 79
-        y: 115
-        width: 64
-        height: 65
+        x: 21
+        y: 335
+        width: 250
+        height: 324
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: white blood cell sprite sheet_5
+    - name: virus sprite sheet_5
       rect:
         serializedVersion: 2
-        x: 152
-        y: 119
-        width: 68
-        height: 65
+        x: 313
+        y: 349
+        width: 238
+        height: 309
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: white blood cell sprite sheet_6
+    - name: virus sprite sheet_6
       rect:
         serializedVersion: 2
-        x: 3
-        y: 44
-        width: 65
-        height: 68
+        x: 583
+        y: 362
+        width: 216
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: white blood cell sprite sheet_7
+    - name: virus sprite sheet_7
       rect:
         serializedVersion: 2
-        x: 78
-        y: 44
-        width: 66
-        height: 66
+        x: 820
+        y: 361
+        width: 204
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
