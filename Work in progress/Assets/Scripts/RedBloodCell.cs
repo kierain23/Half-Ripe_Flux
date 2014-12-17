@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Antibody : MonoBehaviour {
+public class RedBloodCell : MonoBehaviour
+{
 
 	float moveSpeed;
-	public float minSpeed = 1f, maxSpeed = 3f;
+	public float minSpeed = 0.3f, maxSpeed = 1f;
+	public RedBloodCellSpawner spawnerScript;
 	
-	void Start()
+	void Awake()
 	{
 		moveSpeed = Random.Range (minSpeed, maxSpeed);
 		
 		float randomY = Random.Range (-1f, 2f);
 		rigidbody2D.AddForce(new Vector2(-moveSpeed, randomY));
+		spawnerScript = GameObject.FindGameObjectWithTag("RedCellSpawner").GetComponent<RedBloodCellSpawner>();
 	}
 	
 	// Update is called once per frame
@@ -19,24 +22,18 @@ public class Antibody : MonoBehaviour {
 	{
 		rigidbody2D.velocity = rigidbody2D.velocity.normalized * moveSpeed;
 		
-		if(this.transform.position.x < -9f)
+		if(this.transform.position.x <  -9f)
 		{
+			spawnerScript.redBloodCount--;
 			Destroy(gameObject);
 		}
 		
 		if(this.transform.position.x > 12f)
 		{
+			spawnerScript.redBloodCount--;
 			Destroy(gameObject);
+			
 		}
 	}
-	
-	void OnCollisionEnter2D(Collision2D other)
-	{
-		if(other.transform.collider2D.name == "Player")
-		{
-			Destroy(gameObject);
-		}
-		
-		
-	}
+
 }

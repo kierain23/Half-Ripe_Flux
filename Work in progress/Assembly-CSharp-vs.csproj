@@ -46,14 +46,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\RedBloodCell.cs" />
-     <Compile Include="Assets\RedBloodCellSpawner.cs" />
      <Compile Include="Assets\Scripts\Antibody.cs" />
      <Compile Include="Assets\Scripts\AntibodySpawner.cs" />
      <Compile Include="Assets\Scripts\CharacterMovement.cs" />
      <Compile Include="Assets\Scripts\CollectAntibodies.cs" />
+     <Compile Include="Assets\Scripts\KillSpawners.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\LevelMovement.cs" />
+     <Compile Include="Assets\Scripts\RedBloodCell.cs" />
+     <Compile Include="Assets\Scripts\RedBloodCellSpawner.cs" />
+     <Compile Include="Assets\Scripts\SpriteChanger.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

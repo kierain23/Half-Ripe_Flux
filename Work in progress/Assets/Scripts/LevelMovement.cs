@@ -4,6 +4,7 @@ using System.Collections;
 public class LevelMovement : MonoBehaviour {
 
 	public float moveSpeed;
+	private float stopPosition = 83.9f;  // put value for stop level here
 
 
 	void Start () 
@@ -18,7 +19,7 @@ public class LevelMovement : MonoBehaviour {
 			transform.Translate (-Vector2.right * moveSpeed * Time.deltaTime);
 		}
 		
-		if(this.transform.position.x < -86f)// put value for stop level here
+		if(this.transform.position.x < -stopPosition)
 		{
 			GetComponent<LevelMovement>().enabled = false;
 		}
