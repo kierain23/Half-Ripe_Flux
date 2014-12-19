@@ -5,6 +5,8 @@ public class Antibody : MonoBehaviour {
 
 	float moveSpeed;
 	public float minSpeed = 1f, maxSpeed = 3f;
+	public CircleCollider2D shieldCollider;
+	public int clickCount = 3;
 	
 	void Start()
 	{
@@ -36,7 +38,21 @@ public class Antibody : MonoBehaviour {
 		{
 			Destroy(gameObject);
 		}
+	}
+	
+
+	void Update() 
+	{
 		
-		
+	}
+	
+	public void RemoveShield()
+	{
+		clickCount --;
+		if(clickCount <= 0)
+		{
+			shieldCollider.enabled = false;
+			transform.GetChild(1).transform.GetComponent<SpriteRenderer>().enabled = false;
+		}
 	}
 }
