@@ -1,12 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RedBloodCellSpawner.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\RedBloodCellSpawner.cs">
     <Files>
-      <File FileName="Assets\Scripts\LevelMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RedBloodCell.cs" Line="9" Column="20" />
-      <File FileName="Assets\Scripts\KillSpawners.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Antibody.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RedBloodCellSpawner.cs" Line="10" Column="15" />
+      <File FileName="Assets\RedBloodCellSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RedBloodCellSpawner.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
