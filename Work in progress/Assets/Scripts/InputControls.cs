@@ -22,11 +22,14 @@ public class InputControls : MonoBehaviour {
 			print (mouseposition);
 			Debug.DrawLine(mouseposition, shootTo);
 			RaycastHit2D hit2 = Physics2D.Linecast(mouseposition, shootTo);
-			if(hit2.collider.gameObject.name == "AntibodyWithShield")
+			if(hit2 != null)
 			{
-				Antibody antibody = hit2.collider.gameObject.GetComponent<Antibody>();
-				antibody.RemoveShield();
-			}	
+				if(hit2.collider.gameObject.name.Contains("AntibodyWithShield"))
+				{
+					Antibody antibody = hit2.collider.gameObject.GetComponent<Antibody>();
+					antibody.RemoveShield();
+				}	
+			}
 		}
 		
 		if(Input.touchCount == 1)
@@ -36,18 +39,21 @@ public class InputControls : MonoBehaviour {
 			print (touchposition);
 			Debug.DrawLine(touchposition, shootTo);
 			hit = Physics2D.Linecast(touchposition, shootTo);
-			if(hit.collider.gameObject.name == "AntibodyWithShield")
+			if(hit!=null)
 			{
-				Antibody antibody = hit.collider.gameObject.GetComponent<Antibody>();
-				antibody.RemoveShield();
-			}	
+				if(hit.collider.gameObject.name.Contains("AntibodyWithShield"))
+				{
+					Antibody antibody = hit.collider.gameObject.GetComponent<Antibody>();
+					antibody.RemoveShield();
+				}	
+			}
 		}
 	}
 	
 	void OnGUI()
 	{
-		GUI.Label(new Rect(Screen.width / 2, Screen.height / 2, 400, 400), "Pos: " +touchposition);
-		if(hit)
-		GUI.Label(new Rect(Screen.width / 2, Screen.height / 2, 400, 400), "Hit: " +hit.collider.gameObject.name);
+//		GUI.Label(new Rect(Screen.width / 2, Screen.height / 2, 400, 400), "Pos: " +touchposition);
+//		if(hit)
+//		GUI.Label(new Rect(Screen.width / 2, Screen.height / 2, 400, 400), "Hit: " +hit.collider.gameObject.name);
 	}
 }
