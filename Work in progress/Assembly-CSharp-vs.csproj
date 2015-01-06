@@ -48,6 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Antibody.cs" />
      <Compile Include="Assets\Scripts\AntibodySpawner.cs" />
+     <Compile Include="Assets\Scripts\Blamo.cs" />
+     <Compile Include="Assets\Scripts\BulletForce.cs" />
      <Compile Include="Assets\Scripts\CharacterMovement.cs" />
      <Compile Include="Assets\Scripts\CollectAntibodies.cs" />
      <Compile Include="Assets\Scripts\InputControls.cs" />
@@ -56,7 +58,6 @@
      <Compile Include="Assets\Scripts\LevelMovement.cs" />
      <Compile Include="Assets\Scripts\RedBloodCell.cs" />
      <Compile Include="Assets\Scripts\RedBloodCellSpawner.cs" />
-     <Compile Include="Assets\Scripts\SpriteChanger.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

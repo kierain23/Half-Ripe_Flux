@@ -6,12 +6,13 @@ public class AntibodySpawner : MonoBehaviour
 
 	float spawnTimer;
 	float spawnTime = 1f;
-	public float minTime = 2f, maxTime = 5f;
+	float minTime = 2f, maxTime = 5f;
 	public GameObject antibody;
 
 	
 	void Update () 
 	{
+	Debug.Log (maxTime);
 		spawnTimer += Time.deltaTime;
 		if(spawnTimer >= spawnTime)
 		{

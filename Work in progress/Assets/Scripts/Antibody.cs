@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Antibody : MonoBehaviour {
+public class Antibody : MonoBehaviour
+{
 
 	float moveSpeed;
 	public float minSpeed = 1f, maxSpeed = 3f;
@@ -34,10 +35,11 @@ public class Antibody : MonoBehaviour {
 	
 	void OnCollisionEnter2D(Collision2D other)
 	{
-		if(other.transform.collider2D.name == "Player")
+		if(other.transform.collider2D.name == "Player" && clickCount <= 1)
 		{
 			Destroy(gameObject);
 		}
+
 	}
 	
 

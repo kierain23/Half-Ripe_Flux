@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 2e0493914e504d1428e0d68103be846d
+guid: 615c4927d4395334a90f8714f1fc0e53
 MonoImporter:
   serializedVersion: 2
   defaultReferences:
-  - antibody: {fileID: 100000, guid: 1b3127c68d0a30a4ba15767eb0148e97, type: 2}
+  - bulletprefab: {fileID: 100000, guid: 930be1942d803fd4082e7ca8a9a75963, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
