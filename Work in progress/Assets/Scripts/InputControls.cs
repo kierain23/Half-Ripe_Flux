@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class InputControls : MonoBehaviour
-{
+public class InputControls : MonoBehaviour {
 
 	Vector3 touchposition = Vector3.zero;
 	RaycastHit2D hit;

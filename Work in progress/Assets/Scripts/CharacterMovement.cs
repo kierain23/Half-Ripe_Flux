@@ -6,11 +6,14 @@ public class CharacterMovement : MonoBehaviour {
 	public float moveSpeed = 2f;
 	float verticalAxis;
 	
-	void FixedUpdate () 
+	void Update () 
 	{
 		verticalAxis = Input.GetAxis ("Vertical");
+	}
+
+	void FixedUpdate () 
+	{
 		rigidbody2D.velocity = new Vector2 (0, verticalAxis * moveSpeed);
-		transform.position = new Vector3 (-4.07f, this.transform.position.y, 0f);
 
 	}
 }

@@ -1,12 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Blamo.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Antibody.cs">
     <Files>
-      <File FileName="Assets\Scripts\Blamo.cs" Line="37" Column="50" />
-      <File FileName="Assets\Scripts\AntibodySpawner.cs" Line="16" Column="30" />
-      <File FileName="Assets\Scripts\CharacterMovement.cs" Line="13" Column="37" />
-      <File FileName="Assets\Scripts\BulletSpeed.cs" Line="29" Column="1" />
-      <File FileName="Assets\Scripts\LevelMovement.cs" Line="24" Column="49" />
+      <File FileName="Assets\Scripts\InputControls.cs" Line="35" Column="27" />
+      <File FileName="Assets\Scripts\Antibody.cs" Line="55" Column="83" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

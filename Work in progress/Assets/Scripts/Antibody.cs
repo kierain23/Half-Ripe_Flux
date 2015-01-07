@@ -34,7 +34,7 @@ public class Antibody : MonoBehaviour {
 	
 	void OnCollisionEnter2D(Collision2D other)
 	{
-		if(other.transform.collider2D.name == "Player" && clickCount <= 0) 
+		if(other.transform.collider2D.name == "Player")
 		{
 			Destroy(gameObject);
 		}
